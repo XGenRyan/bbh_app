@@ -29,5 +29,9 @@ Also, an additional php script is required. It will have to loop through all of 
 # Optional
 The application is rather dull looking by default, so feel free to create stylesheets within the assets/css/ folder and link them to views/layout.php. If you aren't much of a designer, I recommend looking into [Bootstrap](http://getbootstrap.com) or [Foundation](http://foundation.zurb.com) for some basic styling.
 
+You could also add a pagination to the sortable table (that way the page scrollbar won't be gigantic from hundreds of records).
+
+Another suggestion would be to implement custom error messages instead of the generic error page I have.
+
 # Note
 Unless you know what you are doing, I recommend only editing things inside of the views and assets/css/ folders; only standard HTML and CSS reside there, so you don't have to worry about completely breaking the application.
